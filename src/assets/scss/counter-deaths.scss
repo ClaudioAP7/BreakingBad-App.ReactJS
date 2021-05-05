@@ -1,0 +1,14 @@
+.counter{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: hsla(360, 45%, 95%, 0.9);
+  
+    letter-spacing: 0.8em;
+    font-size: 2.5vw;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-shadow: hsla(0, 45%, 5%, 0.3) 0 0 1px,
+      hsla(360, 55%, 95%, 0.3) 0 -1px 2px, hsla(0, 45%, 5%, 0.3) 0 -1px 2px,
+      hsla(360, 55%, 95%, 0.3) 0 20px 15px;
+  }

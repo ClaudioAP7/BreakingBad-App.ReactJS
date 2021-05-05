@@ -1,0 +1,146 @@
+.container {
+  font-family: "Open Sans";
+  position: relative;
+  width: 1200px;
+  margin: 0 auto 0;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 440px;
+  grid-gap: 20px;
+}
+
+.container .card {
+  position: relative;
+  background: #274217;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.container .card:hover {
+  box-shadow: 0 1px 15px 4px rgba(255, 255, 255, 0.329);
+}
+
+.container .card .img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.container .card:hover .img-box {
+  opacity: 0.5;
+}
+
+.container .card .img-box img {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.container .card .content {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  bottom: -100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.54s;
+}
+
+.container .card:hover .content {
+  bottom: 0;
+}
+
+.container .card:nth-child(1) .content {
+  background: linear-gradient(0deg, #ffffff, transparent);
+}
+
+.container .card:nth-child(2) .content {
+  background: linear-gradient(0deg, #00000075, transparent);
+}
+
+.container .card:nth-child(3) .content {
+  background: linear-gradient(0deg, #ffffff9c, transparent);
+}
+
+.container .card:nth-child(4) .content {
+  background: linear-gradient(0deg, #ffc31eab, transparent);
+}
+
+.container .card .content h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.container .card .content h2 span {
+  color: #ffeb3b;
+  font-size: 16px;
+}
+
+.container .card .content ul {
+  display: flex;
+  margin: 20px 0 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .card .content ul li {
+  list-style: none;
+}
+
+.container .card .content ul li a {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.container .icon {
+  background-color: #ffeb3b;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.container .icon .fa:nth-child(1) {
+  font-size: 100px;
+  position: absolute;
+  top: 19%;
+  left: -5%;
+  color: rgba(255, 255, 255, 0.233);
+}
+
+.container .icon .fa:nth-child(2) {
+  font-size: 100px;
+  position: absolute;
+  top: 19%;
+  left: 102%;
+  color: rgba(255, 255, 255, 0.233);
+}
+
+.container .icon .fa:hover {
+  cursor: pointer;
+}
+
+p {
+  color: #fff;
+}
+
+.content-info {
+  display: contents;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: xxx-large;
+  color: white;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: 900;
+  font-variant: small-caps;
+  font-stretch: ultra-expanded;
+}
